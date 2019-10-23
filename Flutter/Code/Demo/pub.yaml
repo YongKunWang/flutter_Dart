@@ -1,0 +1,49 @@
+#应用或者包名称
+name: flutter_study
+#应用或者包的描述或者简介
+description: A new Flutter project.
+
+#应用或者包的版本号
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+  
+  
+  
+#应用或者包依赖的其他包或者插件
+dependencies:
+  flutter:
+    sdk: flutter
+    
+# 其他方式：  
+    # 依赖本地包  
+  pkg1:
+       path:../../code/pkg1
+    # 依赖Git
+  pkg1:
+      git:
+        url:git://github.com/xxx/pkg1.git  
+    
+
+  
+  cupertino_icons: ^0.1.2
+#开发环境依赖的工具包
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# flutter的相关配置选项
+flutter:
+
+  uses-material-design: true
+  
+# 资源管理
+  assets:
+    - graphis/my_icon.png
+    - graphis/background.png
+# assets变体
+  
+  
+  
+  
