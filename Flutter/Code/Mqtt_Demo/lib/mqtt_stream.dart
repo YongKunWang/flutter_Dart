@@ -30,7 +30,7 @@ class AppMqttTransactions{
     return true;
   }
   Future<MqttClient> _login() async{
-
+	//需要修改为自己的服务器和名称
     client = MqttClient('49.235.208.126','Android_IOT');
     client.logging(on:true);
     final MqttConnectMessage connMsg = MqttConnectMessage()
