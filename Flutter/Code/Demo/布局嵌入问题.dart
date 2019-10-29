@@ -32,19 +32,16 @@ class _MyAppState extends State<MyApp> {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisSize: MainAxisSize.max,
             children: <Widget>[
-              Expanded(
-                child: Container(
-                  color: Colors.red,
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    children: <Widget>[
-                      Text('Hello World'),
-                      Text('Hello Flutter'),
-                    ],
-                  ),
+              Container(
+                color: Colors.red,
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  children: <Widget>[
+                    Text('Hello World'),
+                    Text('Hello Flutter'),
+                  ],
                 ),
               ),
-              
               
             ],
           ),
